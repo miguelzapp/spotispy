@@ -1180,6 +1180,20 @@ label {
     }
 }
 
+.apple-button {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+@media (max-width: 640px) {
+    .apple-button {
+        width: 45%;
+        max-width: 280px
+    }
+}
+
 .button:active {
     outline: 0
 }
